@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define UCI blue color directly */
+
+.container {
+  @apply flex flex-col items-center justify-center h-screen overflow-hidden text-red-600;
+}
+
+.header {
+  @apply relative text-center text-red-500;
+}
+
+.title {
+  @apply text-red-600;
+  color: red;
+}
+
+.gameName {
+  @apply text-3xl text-cyan-700 mb-2; /* UCI blue color */
+}
+
+.backgroundImage {
+  @apply w-full h-auto absolute top-0 left-0;
+}
+
+.scrollContent {
+  @apply p-4 text-center bg-gray-200; /* Light gray background */
+}
